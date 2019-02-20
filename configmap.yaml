@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  myvalue: myMicroService
+kind: ConfigMap
+metadata:
+  name: my-config
+  namespace: myproject

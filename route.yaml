@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: mymicrosvc
+  namespace: myproject
+spec:
+  host: mymicrosvc.vmapimgmt02.eur.ad.sag
+  port:
+    targetPort: 5555-tcp
+  to:
+    kind: Service
+    name: mymicrosvc
+    weight: 100
+  wildcardPolicy: None
+
