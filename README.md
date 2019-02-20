@@ -3,9 +3,11 @@ Sample OpenShift Build Pack that contains CI/CD Scripts
 
 This project uses the Apache License Version 2.0. For details, see the license file.
 
+## CI (continuous integration)
 
+Jenkinsfilein the root of the project contain Jenkins Pipeline declaration. With these you will be able to set up you CI in a matter of minutes.
 
-
+Required environment variables (see Build.sh in the root directory) should be provided while configuring the CI job in Jenkins. Also update the yaml files in the root directory as per the requirement.
 
 
   ______________________
